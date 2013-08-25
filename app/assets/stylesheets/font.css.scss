@@ -1,12 +1,5 @@
 @charset "UTF-8";
 
-/* Japanese Kana U+3040-U+30FF */
-@font-face {
-  font-family: multi-lang-sans-serif;
-  src: local(Hiragino Kaku Gothic Pro), local(Meiryo);
-  unicode-range: U+3040-30FF;
-}
-
 /* Bopomofo U+3105-U+312C */
 @font-face {
   font-family: multi-lang-sans-serif;
