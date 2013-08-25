@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Japanese Kana U+3040-U+30FF */
+@font-face {
+  font-family: multi-lang-sans-serif;
+  src: local(Hiragino Kaku Gothic Pro), local(Meiryo);
+  unicode-range: U+3040-30FF;
+}
+
+/* Bopomofo U+3105-U+312C */
+@font-face {
+  font-family: multi-lang-sans-serif;
+  src: local(LiHei Pro), local("微軟正黑體"), local(Microsoft JhengHei);
+  unicode-range: U+3105-312C;
+}
+
+/* Latin, Latin1, Latin Ext-A, Latin Ext-B */
+@font-face {
+  font-family: multi-lang-sans-serif;
+  src: local(Helvetica), local(Arial);
+  unicode-range: U+00-024F;
+}
